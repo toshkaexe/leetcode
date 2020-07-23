@@ -1,4 +1,5 @@
 package sample;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -9,9 +10,9 @@ public class MergeNames {
     public static String[] uniqueNames(String[] names1, String[] names2) {
 
         ArrayList<String> strArrayList = new ArrayList<String>();
-        for(int i=0;i<names1.length;i++)
+        for (int i = 0; i < names1.length; i++)
             strArrayList.add(names1[i]);
-        for(int i=0;i<names2.length;i++)
+        for (int i = 0; i < names2.length; i++)
             strArrayList.add(names2[i]);
 
 // Create a new ArrayList
@@ -32,8 +33,8 @@ public class MergeNames {
     }
 
     public static void main(String[] args) {
-        String[] names1 = new String[] {"Ava", "Emma", "Olivia","Olivia", "Masha"};
-        String[] names2 = new String[] {"Olivia", "Sophia", "Emma"};
+        String[] names1 = new String[]{"Ava", "Emma", "Olivia", "Olivia", "Masha"};
+        String[] names2 = new String[]{"Olivia", "Sophia", "Emma"};
         System.out.println(String.join(", ", MergeNames.uniqueNames(names1, names2)));
     }
 }
