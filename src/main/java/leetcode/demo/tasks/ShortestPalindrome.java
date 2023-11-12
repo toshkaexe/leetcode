@@ -1,4 +1,4 @@
-package leetcode.demo;
+package leetcode.demo.tasks;
 /*
 You are given a string s. You can convert s to a
 palindrome by adding characters in front of it.

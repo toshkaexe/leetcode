@@ -1,4 +1,4 @@
-package leetcode.demo;
+package leetcode.demo.tasks;
 
 public class UglyNumber {
     public boolean isUgly(int n) {

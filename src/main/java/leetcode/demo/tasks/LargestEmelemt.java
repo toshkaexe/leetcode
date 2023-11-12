@@ -1,4 +1,4 @@
-package leetcode.demo;
+package leetcode.demo.tasks;
 
 import java.util.PriorityQueue;
 

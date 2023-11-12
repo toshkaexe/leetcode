@@ -21,13 +21,13 @@ public class SemaphoreTask {
         try {
             // Запрашиваем разрешение на доступ
             semaphore.acquire();
-            System.out.println("Поток " + Thread.currentThread().getName() + " получил доступ к базе данных");
+            System.out.println("Thread " + Thread.currentThread().getName() + " geted access to the DB");
             // Здесь выполняется код обращения к базе данных
             Thread.sleep(2000); // Имитация обращения к базе данных
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
-            System.out.println("Поток " + Thread.currentThread().getName() + " завершил доступ к базе данных");
+            System.out.println("Thread " + Thread.currentThread().getName() + " finishd acces to the DB");
             // Освобождаем разрешение
             semaphore.release();
         }
