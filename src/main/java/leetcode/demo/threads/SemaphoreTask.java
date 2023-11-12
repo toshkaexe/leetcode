@@ -34,10 +34,10 @@ public class SemaphoreTask {
     }
 
     public static void main(String[] args) {
-        final int MAX_CONNECTIONS = 3;
+        final int MAX_CONNECTIONS = 7;
         SemaphoreTask database = SemaphoreTask.getInstance(MAX_CONNECTIONS);
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 10; i++) {
             Thread thread = new Thread(() -> {
                 database.queryDatabase();
             });
