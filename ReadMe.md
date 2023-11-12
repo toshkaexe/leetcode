@@ -3,11 +3,21 @@
 Welcome to Kontext, a collection of programs, features, and tasks inspired by the LeetCode website. This repository is designed to help you explore and implement various algorithms and coding challenges. Whether you're a seasoned programmer or just getting started, Kontext provides a diverse set of tasks to enhance your coding skills.
 
 ## Table of Contents
+1. [Simple Chat Implementation](#simple-chat-implementation)
+2. [Semaphore Task](#semaphore-task)
+3. [Leetcode: Largest Element](#largest-element)
+4. [Leetcode: Shortest Palindrome](#shortest-palindrome)
+5. [Leetcode: Ugly Number](#ugly-number)
 
-1. [Semaphore Task](#semaphore-task)
-2. [Largest Element](#largest-element)
-3. [Shortest Palindrome](#shortest-palindrome)
-4. [Ugly Number](#ugly-number)
+## Simple Chat Implementation
+
+### Description
+
+The Simple Chat Implementation is a basic chat program that uses threads. It consists of three modules:
+
+- **Client:** This module utilizes Swing for the graphical user interface.
+- **Network:** The network package contains classes responsible for handling network-related functionality.
+- **Server:** The server package includes classes necessary for server-side operations.
 
 ## Semaphore Task
 
